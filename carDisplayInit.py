@@ -20,5 +20,10 @@ class Car(object):
         print "Mileage:", self.mileage
         print "Tax:", self.tax
 
-Merzedes = Car(80000,80, 5, 100, "Merzedes")
+merzedes = Car(80000,80, 5, 100, "Merzedes")
 # Merzedes.displayInfo()
+Sonata = Car(5000, 15, 25,60,"Sonata")
+hondaOdyssey = Car(5000, 15, 25,60,"Odyssey")
+lamborgini = Car(10000, 27, 25,60,"Lamborgini")
+van = Car(2000, 30, 25,60,"van")
+flyingCar = Car(2000, 30, 25,60,"flyingCar")
